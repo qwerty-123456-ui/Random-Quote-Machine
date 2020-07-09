@@ -23,7 +23,7 @@ body {
   
   span::before {
     content: open-quote;
-    font-size: 52px;
+    font-size: 51px;
     vertical-align: -1.2rem;
     line-height: 0.4;
     font-family: 'Galada', cursive;
