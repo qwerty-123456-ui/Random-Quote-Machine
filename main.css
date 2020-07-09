@@ -1,5 +1,17 @@
+.header{
+    /* background-color: #fff; */
+    color: rgb(4, 4, 110);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.header h1{
+    text-shadow: 4px 4px rgb(72, 177, 142);
+    font-size: 80px;
+    font-family: 'Galada', cursive;
+}
 body {
-    background: lightblue;
+    background: rgb(165, 240, 240);
     padding: 0px;
     margin: 0px;
   }
@@ -14,20 +26,38 @@ body {
     font-size: 52px;
     vertical-align: -1.2rem;
     line-height: 0.4;
-    font-family: sans-serif;
+    font-family: 'Galada', cursive;
   }
   
-  button{
-    padding: 0px 8px 0px 6px;
-    height: 35px;
+  .colorit{
+      background-color:  rgb(207, 252, 252);
+     box-shadow: 2px 2px 2px 2px rgb(22, 112, 172);
   }
+
+  
   
   #app{
     display:flex;
     width: 100vw;
-    height: 100vh;
+    height: 25vh;
     align-items: center;
     justify-content : center;
+    font-size: 30px;
+    font-family: 'Galada', cursive;
+  }
+  /* button{
+    
+  } */
+
+  .btn{
+    margin-top: 15px;
+    padding: 0px 8px 0px 6px;
+    height: 45px;
+    background-color:  rgb(158, 241, 241);
+    font-size: 18px;
+    padding: 3px;
+    font-family: 'Galada', cursive;
+    border: 2px solid rgb(2, 127, 230);
   }
   
   /*
